@@ -1,0 +1,13 @@
+<div class="list-notes">
+  <ul class="list">
+    <li class="list-note" *ngFor="let note of notes" (click)="onSelect(note)">
+      <div>
+        <p>{{note.title}}</p>
+        <span>{{note.date}}</span>
+      </div>
+      <div>
+        <span>&#10005;</span>
+      </div>
+    </li>
+  </ul>
+</div>

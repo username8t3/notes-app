@@ -1,0 +1,31 @@
+.search {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  border-bottom: none;
+
+  input {
+    height: 45%;
+    width: 75%;
+    border: none;
+    border-radius: 8px;
+    background-color: #CBC7C7;
+  }
+
+  button {
+    height: 50%;
+    width: 10%;
+    border-radius: 8px;
+    border: none;
+    background-color:#2067EF;
+
+      span {
+        color: white;
+        display: inline-block;
+        transform: rotate(45deg);
+      }
+  }
+}

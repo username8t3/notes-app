@@ -1,0 +1,29 @@
+.list-notes::-webkit-scrollbar {
+  width: 0;
+}
+
+.list-notes {
+  height: 100%;
+  border: 1px solid black;
+  overflow: auto;
+
+  .list {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    .list-note:first-child {
+      border-top: none;
+      border-bottom: 1px solid black;
+    }
+
+    .list-note {
+      display: flex;
+      justify-content: space-around;
+      border-top: none;
+      border-bottom: 1px solid black;
+    }
+  }
+}

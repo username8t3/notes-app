@@ -1,0 +1,15 @@
+.background {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: #E5E5E5;
+  
+  align-items: center;
+  justify-content: center;
+    
+    .main {
+      height: 90%;
+      width: 90%;
+      display: flex;
+  }
+}

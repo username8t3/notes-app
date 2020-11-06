@@ -1,0 +1,26 @@
+.container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 25%;
+  background-color: #A3A1A1;
+
+  .top {
+    height: 10%;
+  }
+
+  .medium {
+    height: 80%;
+  }
+
+  .bottom {
+    height: 10%;
+  }
+}
+
+.container-right {
+  height: 100%;
+  width: 75%;
+  background-color: #CBC7C7;
+}
